@@ -1,0 +1,38 @@
+@import url('../../theme.css');
+
+.navbar{
+    position: fixed;
+    /* position: -webkit-sticky; */
+    top: 0;
+    z-index: 2;
+    background-color: var(--var-web-bg) ;
+    width: 100%;
+    transition: top 0.3s;
+}
+.navbar-brand{
+    font-size: 150%;
+    color: var(--on-primary);
+    font-weight: 700;
+    margin-left: 2vw;
+}
+
+.nav-item{
+    width: 11vw;
+    text-align: center;
+    color: var(--navbar-heading-color);
+    font-weight: 500;
+}
+
+.active{
+    /* color: #fff !important; */
+}   
+
+
+@media screen and (max-width: 430px){
+    .nav-item{
+        width: 100%;
+        text-align: center;
+        /* color: black; */
+        font-weight: 500;
+    }
+}
