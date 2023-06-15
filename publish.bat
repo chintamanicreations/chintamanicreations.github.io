@@ -1,5 +1,5 @@
 call ng build --output-path docs --base-href
-@echo %1
+@echo "Publishing site"
 call git add .
-call git commit -m "trail"
+call git commit -m %1
 call git push
