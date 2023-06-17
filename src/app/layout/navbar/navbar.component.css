@@ -5,9 +5,9 @@
     /* position: -webkit-sticky; */
     top: 0;
     z-index: 2;
-    background-color: var(--var-web-bg) ;
+    background-color: var(--web-bg) ;
     width: 100%;
-    transition: top 0.3s;
+    transition: top 0.8s;
 }
 .navbar-brand{
     font-size: 150%;

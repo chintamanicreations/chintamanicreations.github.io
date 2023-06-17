@@ -1,10 +1,17 @@
 :root{
     --web-bg :#F0D498;
-    --primary : #CC8000;
+    --primary : #ce8911;
     --secondary : #2757C5;
     --tertiary: #F4C000;
     --title-large : 2em;
     --body-text: 1.5em;
     --on-primary: #865300;
+    /* --text-color: #f8ce9a; */
     --navbar-heading-color : #663E00;
+}
+
+@font-face {
+    font-family: 'Benguiat';
+    src: url("../assets/Benguiat-Bold.woff2") format('woff2');
+    font-weight: 700;
 }

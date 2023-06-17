@@ -1,0 +1,49 @@
+@import url(../../../theme.css);
+.offer-card{
+    width: 20vw;
+    background-color: var(--primary);
+    /* height: fit-content; */
+    padding-bottom: 1vw;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+ 
+.heading{
+    /* color: var(--text-color); */
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: var(--body-text);
+    /* backdrop-filter: blur(20px); */
+}
+
+.card-image{
+    border-radius: 10px 10px 0 0 ;
+    width: 20vw;
+    /* filter: blur(3px); */
+   
+}
+
+.description{
+    margin: 1vw;
+    text-align: center;
+    margin-bottom: 0;
+    /* margin: 0 1vw 1vw 1vw; */
+}
+
+.card-image-heading{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 10px;
+}
