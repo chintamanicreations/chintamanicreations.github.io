@@ -8,6 +8,11 @@
     --on-primary: #865300;
     /* --text-color: #f8ce9a; */
     --navbar-heading-color : #663E00;
+
+    @media screen and (max-width : 430px){
+        --title-large : 1.5em;
+        --body-text: 1.5em;
+    }
 }
 
 @font-face {

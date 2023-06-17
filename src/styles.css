@@ -3,6 +3,6 @@
 
 body{
     background-color: var(--web-bg);
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     font-family: "Ubuntu";
 }
