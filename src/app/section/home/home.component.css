@@ -126,7 +126,10 @@
     }
 
     .tagline{
-        margin-bottom: 2vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-bottom: 2vw; */
     }
     .to{
         font-size: 0.7em;
