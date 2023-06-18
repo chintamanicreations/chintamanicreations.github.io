@@ -28,7 +28,7 @@
 }   
 
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 500px){
     .nav-item{
         width: 100%;
         text-align: center;

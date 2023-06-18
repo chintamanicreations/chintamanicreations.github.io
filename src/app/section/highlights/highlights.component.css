@@ -19,7 +19,7 @@
     font-weight: 500;
 }
 
-@media screen and (max-width : 430px){
+@media screen and (max-width : 500px){
     .highlight-card{
         width: 90vw;
         margin-left: 3vw;

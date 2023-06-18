@@ -65,7 +65,7 @@
     background-color: var(--secondary);
 }
 
-@media screen and (max-width : 430px){
+@media screen and (max-width : 500px){
     .offer-card{
         width: 90vw;
         background-color: var(--primary);
