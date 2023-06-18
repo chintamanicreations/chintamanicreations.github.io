@@ -17,7 +17,7 @@
 }
 
 .text-con{
-    width: 50vw;
+    width: 60vw;
     margin-left: 2vw;
 }
 .chintamani-creations{
@@ -34,7 +34,7 @@
 
 .image{
     width: 40vw;
-    margin-right: 6vw;
+    margin-right: 4vw;
     margin-top: 4vw;
 }
 
@@ -123,6 +123,10 @@
         color: var(--on-primary);
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .tagline{
+        margin-bottom: 2vw;
     }
     .to{
         font-size: 0.7em;
