@@ -99,7 +99,7 @@
     margin-top: 2vw;
     margin-bottom: 2vw;
 }
-@media screen and (max-width : 430px){
+@media screen and (max-width : 500px){
     .home{
         display: flex;
         flex-direction: column-reverse;
@@ -112,12 +112,20 @@
         margin-top: 0;
         text-align: center;
         font-size: 3em;
+        line-height: 120%;
         color: var(--on-primary);
         font-weight: 700;
     }
-
+    .section-heading{
+        width: fit-content;
+        font-size: 2em;
+        font-weight: 500;
+        color: var(--on-primary);
+        margin-left: auto;
+        margin-right: auto;
+    }
     .to{
-        font-size: 0.9em;
+        font-size: 0.7em;
     }
     .image{
         width: 90vw;
@@ -164,7 +172,7 @@
         margin-bottom: 2vw;
     }
     .mobile-why{
-        margin-top: 12vw;
+        margin-top: 15vw;
     }
 
     br{
