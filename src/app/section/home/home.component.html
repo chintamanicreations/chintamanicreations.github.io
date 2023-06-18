@@ -1,6 +1,7 @@
 <div class="home">
     <div class="text-con">
-        <div class="welcome">Welcome to <br><span class='chintamani-creations'>Chintamani Creations</span></div>
+        <div class="welcome" *ngIf="!isMobile">Welcome to <br><span class='chintamani-creations'>Chintamani Creations</span></div>
+        <div class="welcome" *ngIf="isMobile">Welcome <br> <span class="to">to</span> <br><span class='chintamani-creations'>Chintamani Creations</span></div>
         <div class="tagline">The Place where Design meets
             <div class="flipping">
                 <span class="animated">Creativity</span>
@@ -18,7 +19,7 @@
     </div>
 
 </div>
-<div class="section-heading"> Why Choose Us
+<div class="section-heading mobile-why"> Why Choose Us
 </div>
 <div class="section">
     <div class="highlights">

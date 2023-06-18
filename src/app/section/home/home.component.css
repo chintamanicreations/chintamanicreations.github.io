@@ -1,4 +1,5 @@
 @import url('../../theme.css');
+
 .welcome{
     width: fit-content;
     /* margin-left: 2vw; */
@@ -64,10 +65,10 @@
 
   @keyframes show{
     0% { opacity: 0; }
-	15% { opacity: 0; -webkit-transform: translateY(-50px); }
+	15% { opacity: 0; -webkit-transform: translateY(-3vw); }
 	/* 10% { opacity: 1; -webkit-transform: translateY(0px); } */
 	25% { opacity: 1; -webkit-transform: translateY(0px); }
-	60% { opacity: 0; -webkit-transform: translateY(50px); }
+	60% { opacity: 0; -webkit-transform: translateY(3vw); }
 	80% { opacity: 0; }
 	100% { opacity: 0; }
   }
@@ -98,7 +99,6 @@
     margin-top: 2vw;
     margin-bottom: 2vw;
 }
-
 @media screen and (max-width : 430px){
     .home{
         display: flex;
@@ -115,6 +115,10 @@
         color: var(--on-primary);
         font-weight: 700;
     }
+
+    .to{
+        font-size: 0.9em;
+    }
     .image{
         width: 90vw;
         margin-left: auto;
@@ -127,9 +131,26 @@
     }
     .flipping{
         /* width: fit-content; */
+        /* left: 50%; */
+        margin-top: 2vw;
+        margin-bottom: 2vw;
         display: block;
         text-indent: 0px;
     }
+    .animated{
+        font-size: 1.5em;
+    }
+    .flipping span{
+        /* animation: showMobile 5s linear infinite 0s; */
+        left:50%;
+        translate: -50%
+    }
+    .flipping span:nth-child(2){
+        left:50%;
+        translate: -50%
+    }
+    
+     
     .section{
         margin-left: 2vw;
         margin-right: 2vw;
@@ -141,5 +162,12 @@
         flex-wrap: wrap;
         margin-top: 2vw;
         margin-bottom: 2vw;
+    }
+    .mobile-why{
+        margin-top: 12vw;
+    }
+
+    br{
+        height: 2vw;
     }
 }
