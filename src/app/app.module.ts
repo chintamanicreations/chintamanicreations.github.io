@@ -8,6 +8,7 @@ import { HomeComponent } from './section/home/home.component';
 import { WhatWeOfferComponent } from './section/what-we-offer/what-we-offer.component';
 import { WwoCardComponent } from './section/what-we-offer/wwo-card/wwo-card.component';
 import { HighlightsComponent } from './section/highlights/highlights.component';
+import { GetAQouteComponent } from './section/get-a-qoute/get-a-qoute.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HighlightsComponent } from './section/highlights/highlights.component';
     HomeComponent,
     WhatWeOfferComponent,
     WwoCardComponent,
-    HighlightsComponent
+    HighlightsComponent,
+    GetAQouteComponent
   ],
   imports: [
     BrowserModule,

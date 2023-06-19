@@ -94,11 +94,31 @@
     /* justify-content: space-around; */
 }
 .what-we-offer-cards{
+    /* width: 91vw; */
     display: flex;
     justify-content: space-between;
     margin-top: 2vw;
-    margin-bottom: 2vw;
+    /* margin-bottom: 2vw; */
 }
+.look-more{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 10vw;
+        position: relative;
+        padding: 0.2vw 0.5vw;
+        height: 2vw;
+        border-radius: 1vw;
+        float: right;
+        /* margin-left: auto; */
+        margin-bottom: 2vw;
+        margin-right: 4vw;
+        text-decoration: none;
+        color: var(--tertiary);
+        background-color: var(--secondary);
+    }
+
 @media screen and (max-width : 500px){
     .home{
         display: flex;

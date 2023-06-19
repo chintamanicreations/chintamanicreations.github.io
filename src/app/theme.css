@@ -17,6 +17,12 @@
     --body-text: 1.5em;
     }
 }
+@media screen and (max-width : 375px){
+    :root{
+    --title-large : 1.2em;
+    --body-text: 1.5em;
+    }
+}
 @font-face {
     font-family: 'Benguiat';
     src: url("../assets/Benguiat-Bold.woff2") format('woff2');

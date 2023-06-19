@@ -35,4 +35,10 @@
         /* color: black; */
         font-weight: 500;
     }
+    .navbar-brand{
+        font-size: 120%;
+        color: var(--on-primary);
+        font-weight: 700;
+        margin-left: 2vw;
+    }
 }
