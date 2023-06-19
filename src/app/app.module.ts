@@ -9,6 +9,7 @@ import { WhatWeOfferComponent } from './section/what-we-offer/what-we-offer.comp
 import { WwoCardComponent } from './section/what-we-offer/wwo-card/wwo-card.component';
 import { HighlightsComponent } from './section/highlights/highlights.component';
 import { GetAQouteComponent } from './section/get-a-qoute/get-a-qoute.component';
+import { ContactUsComponent } from './section/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { GetAQouteComponent } from './section/get-a-qoute/get-a-qoute.component'
     WhatWeOfferComponent,
     WwoCardComponent,
     HighlightsComponent,
-    GetAQouteComponent
+    GetAQouteComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
