@@ -1,11 +1,14 @@
 :root{
-    --web-bg :#F0D498;
-    --primary : #ce8911;
-    --secondary : #2757C5;
+    /* --web-bg :#F0D498; */
+    --web-bg :#e1c07c;
+    /* --primary : #ce8911; */
+    --primary : #B68D40;
+    /* --secondary : #2757C5; */
+    --secondary : #996a0c   ;
     --tertiary: #F4C000;
     --title-large : 2em;
     --body-text: 1.5em;
-    --on-primary: #865300;
+    --on-primary: #5e3a01;
     /* --text-color: #f8ce9a; */
     --navbar-heading-color : #663E00;
 

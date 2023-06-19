@@ -18,6 +18,7 @@ export class HomeComponent {
     highlight: 'On Time Completion',
     description: " Experience the power of on-time delivery. Our graphic design studio is committed to meeting deadlines with precision and maintaining exceptional quality. With our efficient workflows and dedicated team, we guarantee that your projects will be delivered on schedule"},
   ];
+  screenWidth = window.screen.width;
   isMobile : boolean = (window.screen.width < 430); 
 }
 

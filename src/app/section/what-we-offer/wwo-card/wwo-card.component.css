@@ -62,13 +62,13 @@
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
-    color: var(--tertiary);
+    color: white;
     background-color: var(--secondary);
 }
 
 @media screen and (max-width : 500px){
     .offer-card{
-        width: 90vw;
+        width: 80vw;
         background-color: var(--primary);
         /* height: fit-content; */
         padding-bottom: 3vw;
@@ -78,7 +78,7 @@
     }
     .card-image{
         border-radius: 10px 10px 0 0 ;
-        width: 90vw;
+        width: 80vw;
         height: 45vw
         /* filter: blur(3px); */
        
@@ -91,20 +91,15 @@
         /* margin: 0 1vw 1vw 1vw; */
     }
     .explore{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
         width: 35vw;
         position: relative;
         padding: 0.6vw 1.5vw;
         height: 9vw;
         border-radius: 4.5vw;
-        margin-left: auto;
-        margin-right: auto;
-        text-decoration: none;
-        color: var(--tertiary);
-        background-color: var(--secondary);
+    }
+
+    .heading{
+        font-size: 1.8em;
     }
 }
 

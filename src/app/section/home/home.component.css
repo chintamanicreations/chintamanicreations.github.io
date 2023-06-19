@@ -28,7 +28,7 @@
     width: fit-content;
     display: inline;
     font-size: var(--title-large) ;
-    color: var(--secondary);
+    color: var(--on-primary);
     font-weight: 500;
 }
 
@@ -115,7 +115,7 @@
         margin-bottom: 2vw;
         margin-right: 4vw;
         text-decoration: none;
-        color: var(--tertiary);
+        color: white;
         background-color: var(--secondary);
     }
 
@@ -204,5 +204,25 @@
 
     br{
         height: 2vw;
+    }
+    .look-more{
+        width: 35vw;
+        /* position: relative; */
+        padding: 0.6vw 1.5vw;
+        height: 9vw;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 4.5vw;
+        margin-bottom: 6vw;
+    }
+}
+
+@media only screen and (max-width : 380px) {
+    .tagline{
+        font-size: 1.3em;
+    }
+    .explore{
+        width: 40vw;
     }
 }
