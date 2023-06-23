@@ -1,14 +1,12 @@
 <div class="offer-card">
     <div class="card-image-heading">
-        <img class= 'card-image' src="assets/card-bg.jpeg">
+        <img class= 'card-image' src="assets/{{category.image}}">
         <div class="overlay"></div>
-        <div class="heading">Logo Design</div>
+        <div class="heading">{{category.name}}</div>
     </div>
    
-    <div class="description">Experience the power of our Logo Designing service. 
-        Stand out from the competition and leave a lasting impression on your audience. 
-        Elevate your business with our impactful logo designs.
+    <div class="description">{{category.description}}
     </div>
 
-    <a href="" class="explore">Explore More</a>
+    <a routerLink="/{{category.route}}" class="explore" ariaCurrentWhenActive="page">Explore More</a>
 </div>

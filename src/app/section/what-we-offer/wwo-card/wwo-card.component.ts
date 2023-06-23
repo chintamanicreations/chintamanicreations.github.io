@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Categories } from '../../category/categories';
 
 @Component({
   selector: 'app-wwo-card',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./wwo-card.component.css']
 })
 export class WwoCardComponent {
-
+  category = Categories.LogoDesign;
 }

@@ -10,6 +10,7 @@ import { WwoCardComponent } from './section/what-we-offer/wwo-card/wwo-card.comp
 import { HighlightsComponent } from './section/highlights/highlights.component';
 import { GetAQouteComponent } from './section/get-a-qoute/get-a-qoute.component';
 import { ContactUsComponent } from './section/contact-us/contact-us.component';
+import { CategoryComponent } from './section/category/category.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactUsComponent } from './section/contact-us/contact-us.component';
     WwoCardComponent,
     HighlightsComponent,
     GetAQouteComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,
