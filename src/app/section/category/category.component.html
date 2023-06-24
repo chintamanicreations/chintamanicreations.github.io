@@ -6,7 +6,9 @@
 </div>
 
 <div class="section">
-    <div class="heading"></div>
-    <a routerLink="/get-a-qoute">Get A Qoute</a>
+    <div class="heading">Our Best Works</div>
+    <a class = 'get-a-qoute' routerLink="/get-a-qoute">Get A Qoute</a>
 </div>
-<div class = "samples"></div>
+<div class = "samples">
+    <img src = 'assets/{{sample}}' class = 'sample' *ngFor="let sample of category.samples">
+</div>

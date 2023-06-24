@@ -11,6 +11,7 @@ import { HighlightsComponent } from './section/highlights/highlights.component';
 import { GetAQouteComponent } from './section/get-a-qoute/get-a-qoute.component';
 import { ContactUsComponent } from './section/contact-us/contact-us.component';
 import { CategoryComponent } from './section/category/category.component';
+import { SampleComponent } from './section/sample/sample.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CategoryComponent } from './section/category/category.component';
     HighlightsComponent,
     GetAQouteComponent,
     ContactUsComponent,
-    CategoryComponent
+    CategoryComponent,
+    SampleComponent
   ],
   imports: [
     BrowserModule,
