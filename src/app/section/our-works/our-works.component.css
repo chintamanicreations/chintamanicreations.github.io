@@ -1,0 +1,142 @@
+@import url(../../theme.css);
+
+.heading{
+    width: fit-content;
+    font-size: 3em;
+    font-weight: 500;
+    color: var(--on-primary);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+}
+
+.sample-cards{
+    margin: 2vw 10vw ;
+}
+
+.sample-card:nth-child(odd){
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+    height: 20vw;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.sample-card:nth-child(even){
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+    height: 20vw;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.category{
+    padding: 2vw;
+    background-color: var(--primary);
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+}
+
+.category-odd{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.name{
+    font-size: 2em;
+    margin-bottom: 5vw;
+    font-weight: 500;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    position: relative;
+    padding: 0.2vw 0.5vw;
+    height: 2vw;
+    border-radius: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: white;
+    background-color: var(--secondary);
+    margin-bottom: 1vw;
+}
+
+.samples{
+    width: 56vw;
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vw;
+}
+
+.sample{
+    width: 25vw;
+    height: 15vw;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+@media screen and (max-width :500px) {
+    .heading{
+        font-size: 2em;
+        margin-top: 14vw;
+    }
+    .sample-cards{
+        margin: 5vw 10vw;
+    }
+    .sample-card:nth-child(n){
+        flex-direction: column;
+        margin-bottom: 6vw;
+        height: fit-content;
+    }
+    .category{
+        width: 100%;
+        height: fit-content;
+        border-radius: 10px 10px 0px 0;
+    }
+    .name{
+        font-size: 1.8em;
+        margin-bottom: 4vw;
+    }
+    .samples{
+        width: 80vw;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+    .buttons{
+        width: 75vw;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 2vw;
+    }
+    .button{
+        width: 30vw;
+        padding: 0.6vw 1.5vw;
+        height: 6vw;
+        border-radius: 3vw;
+    }
+    .samples{
+        padding: 3vw;
+    }
+    .sample{
+        width: 60vw;
+        height: 40vw;
+        margin-bottom: 2vw;
+    }
+}

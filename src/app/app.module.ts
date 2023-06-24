@@ -12,6 +12,7 @@ import { GetAQouteComponent } from './section/get-a-qoute/get-a-qoute.component'
 import { ContactUsComponent } from './section/contact-us/contact-us.component';
 import { CategoryComponent } from './section/category/category.component';
 import { SampleComponent } from './section/sample/sample.component';
+import { OurWorksComponent } from './section/our-works/our-works.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SampleComponent } from './section/sample/sample.component';
     GetAQouteComponent,
     ContactUsComponent,
     CategoryComponent,
-    SampleComponent
+    SampleComponent,
+    OurWorksComponent
   ],
   imports: [
     BrowserModule,

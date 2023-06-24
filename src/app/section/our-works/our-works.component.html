@@ -1,0 +1,16 @@
+<div class="heading">Our Works</div>
+<div class="sample-cards">
+    <div class="sample-card" *ngFor="let category of categories;let odd = odd">
+        <div class="category" [ngClass]="{ 'category-odd' : odd}">
+            <div class="name">{{category.name}}</div>
+            <div class="buttons">
+                <a routerLink="/get-a-qoute" class="button get-a-qoute">Get a Qoute</a>
+                <a routerLink="/{{category.route}}" class="button explore-more">Explore More</a>
+            </div>
+        </div>
+        <div class="samples">
+            <img src="assets/{{category.samples[0]}}" class="sample">
+            <img src="assets/{{category.samples[1]}}" class="sample">
+        </div>
+    </div>
+</div>
