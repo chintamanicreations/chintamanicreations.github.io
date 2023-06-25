@@ -1,4 +1,4 @@
-call ng build --output-path docs --base-href
+call ng build --output-path docs --base-href ./
 cd docs
 copy index.html 404.html
 @echo "Publishing site"
