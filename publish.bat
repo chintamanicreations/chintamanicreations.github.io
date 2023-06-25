@@ -1,6 +1,6 @@
 call ng build --output-path docs --base-href
 cd docs
-cp index.html 404.html
+copy index.html 404.html
 @echo "Publishing site"
 cd ..
 call git add .
