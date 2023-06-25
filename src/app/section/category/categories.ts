@@ -5,7 +5,7 @@ export class Categories{
         name:'Logo Design',
         description: "Experience the power of our Logo Designing service. Stand out from the competition and leave a lasting impression on your audience. Elevate your business with our impactful logo designs.",
         image: "logodesign.jpg",
-        samples: ['logo.jpg','logo.jpg','logo.jpg','logo.jpg','logo.jpg',],
+        samples: ['logo/1.png','logo/2.png','logo/3.png','logo/4.png','logo/5.png','logo/6.png'],
         route: "logo-design"
     }
 
