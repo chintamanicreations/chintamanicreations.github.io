@@ -114,9 +114,10 @@
     .get-a-qoute{
         width: 30vw;
         font-size: 1em;
-        padding: 3.6vw 3vw;
-        height: 2vw;
+        padding: 0.6vw 1.2vw;
+        height: 6vw;
         border-radius: 9vw;
+        font-size: 3.6vw;
         /* margin-left: auto; */
         margin-right: unset;
     }
@@ -131,7 +132,7 @@
     .sample{
         width: 80vw;
         height: 53vw;
-        object-fit: cover;
+        /* object-fit: cover; */
         margin-bottom: 2vw;
     }
 }
