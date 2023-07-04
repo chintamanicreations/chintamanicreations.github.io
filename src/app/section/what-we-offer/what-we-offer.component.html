@@ -2,10 +2,6 @@
 </div>
 <div class="section">
     <div class="what-we-offer-cards">
-        <app-wwo-card></app-wwo-card>
-        <app-wwo-card></app-wwo-card>
-        <app-wwo-card></app-wwo-card>
-        <app-wwo-card></app-wwo-card>
-        <app-wwo-card></app-wwo-card>
+        <app-wwo-card *ngFor="let category of categories" [category]="category"></app-wwo-card>
     </div>
 </div>

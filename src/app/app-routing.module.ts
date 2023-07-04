@@ -20,6 +20,12 @@ const routes: Routes = [
     data: {
       'category': Categories.LogoDesign
     }
+  },
+  {
+    path: 'office-stationary', component: CategoryComponent, 
+    data: {
+      'category': Categories.OfficeStationaryDesign
+    }
   }
 ];
 

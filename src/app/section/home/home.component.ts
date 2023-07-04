@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HighlightsComponent } from '../highlights/highlights.component';
+import { categories }  from '../category/categories';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,7 @@ import { HighlightsComponent } from '../highlights/highlights.component';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+  categories = categories.slice(0,4);
   highlights: Highlight[] = [{
     highlight: 'Creativity',
     description: " Ignite your brand's creativity with our innovative design studio. Our talented team pushes boundaries, delivering captivating and unique designs that differentiate your brand in a competitive landscape. Unleash your brand's potential today!"}, {
