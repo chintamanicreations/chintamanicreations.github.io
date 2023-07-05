@@ -26,6 +26,18 @@ const routes: Routes = [
     data: {
       'category': Categories.OfficeStationaryDesign
     }
+  },
+  {
+    path: 'brochure-design', component: CategoryComponent, 
+    data: {
+      'category': Categories.BrochureDesign
+    }
+  },
+  {
+    path: 'invitation-cards', component: CategoryComponent, 
+    data: {
+      'category': Categories.InvitationCardDesign
+    }
   }
 ];
 

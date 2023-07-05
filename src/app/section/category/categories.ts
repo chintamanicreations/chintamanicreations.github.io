@@ -20,9 +20,9 @@ export class Categories{
     static BrochureDesign: Category = {
         name: "Brochure Design",
         description: "Communicate effectively with visually stunning brochures that engage your audience and showcase your message and offerings. Leave a lasting impression with our designs.",
-        image: "logo/bg.png",
-        samples: ['logo/1.png','logo/2.png','logo/3.png','logo/4.png','logo/5.png','logo/6.png','logo/7.png','logo/8.png'],
-        route: "logo-design"
+        image: "brochure/bg.png",
+        samples: ['brochure/1.png','brochure/2.png','brochure/3.png','brochure/4.png','brochure/5.png','brochure/6.png','brochure/7.png','brochure/8.png'],
+        route: "brochure-design"
     }
 
     static OfficeStationaryDesign : Category = {
@@ -64,9 +64,11 @@ export class Categories{
     static InvitationCardDesign : Category = {
         name: "Invitation Cards",
         description: "Create unforgettable moments with exquisite designs, from elegant wedding cards to personalized invitations. Leave a lasting impression with our expertly crafted designs.",
-        image: "logo/bg.png",
-        samples: ['logo/1.png','logo/2.png','logo/3.png','logo/4.png','logo/5.png','logo/6.png','logo/7.png','logo/8.png'],
-        route: "logo-design"
+        image: "invitation-cards/bg.jpg",
+        samples: ['invitation-cards/1.png','invitation-cards/2.jpg','invitation-cards/3.png','invitation-cards/4.png','invitation-cards/5.png','invitation-cards/6.png','invitation-cards/7.png','invitation-cards/8.png',
+        'invitation-cards/9.png','invitation-cards/10.png','invitation-cards/11.png',
+        'invitation-cards/12.png',],
+        route: "invitation-cards"
     }
 }
 const categories: Category[] = [
